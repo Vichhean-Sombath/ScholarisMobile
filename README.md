@@ -9,7 +9,7 @@ A Flutter student-attendance app migrated from the original native Android (Kotl
 ## Related Projects
 
 - **Scholaris** — Backend API server that powers the mobile app and web client. (https://github.com/rezio23/Scholaris.git)
-- **ScholarisPage** — Role-based React web application for admins, teachers, and students. (https://github.com/rezio23/ScholarisClient.git)
+- **ScholarisPage** — Role-based React web application for admins, teachers, and students. (https://github.com/rezio23/ScholarisEdu.git)
 
 ## Features
 
