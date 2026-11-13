@@ -6,12 +6,11 @@ abstract final class Constants {
   /// Override at build time with `--dart-define=API_BASE_URL=...` or load it
   /// from a `.env` file with `--dart-define-from-file=.env` (Flutter 3.13+).
   ///
-  /// The default is `http://10.0.2.2:3000/` for Android emulator local
-  /// development. For production or a real device, set `API_BASE_URL` in
-  /// `.env` (see `.env.example`).
+  /// The default is the hosted Scholaris API. Set `API_BASE_URL` in `.env`
+  /// (see `.env.example`) to use a different backend for development.
   static const String defaultApiBaseUrl = String.fromEnvironment(
     'API_BASE_URL',
-    defaultValue: 'http://10.0.2.2:3000/',
+    defaultValue: 'https://scholarisapi.onrender.com',
   );
 
   static const String secureStorageTokenKey = 'scholaris_token';

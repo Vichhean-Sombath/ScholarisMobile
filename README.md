@@ -51,7 +51,7 @@ A Flutter student-attendance app migrated from the original native Android (Kotl
    `.env` is gitignored and must never be committed. Update `API_BASE_URL` inside it, for example:
 
    ```env
-   API_BASE_URL=http://10.0.2.2:3000/
+   API_BASE_URL=https://scholarisapi.onrender.com
    ```
 
    Run the app with the environment file:
@@ -63,10 +63,10 @@ A Flutter student-attendance app migrated from the original native Android (Kotl
    Alternatively, you can pass the URL directly at build time:
 
    ```bash
-   flutter run --dart-define=API_BASE_URL=https://api.example.com/
+   flutter run --dart-define=API_BASE_URL=http://10.0.2.2:3000/
    ```
 
-   The default is `http://10.0.2.2:3000/` for Android emulator local development.
+   The default is `https://scholarisapi.onrender.com`.
 
 4. **Run the app**:
    ```bash
@@ -77,7 +77,7 @@ A Flutter student-attendance app migrated from the original native Android (Kotl
 
 | Variable        | Description                          | Example                          |
 |-----------------|--------------------------------------|----------------------------------|
-| `API_BASE_URL`  | Base URL of the Scholaris API server | `https://api.scholaris.edu`      |
+| `API_BASE_URL`  | Base URL of the Scholaris API server | `https://scholarisapi.onrender.com` |
 
 > **Security note:** `.env` is listed in `.gitignore` and must not be committed. Only `.env.example` is tracked as a template.
 
